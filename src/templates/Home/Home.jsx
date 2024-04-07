@@ -5,7 +5,7 @@ import { Header } from "../../components/header";
 class Home extends Component {
   render() {
     return (
-      <section className="container">
+      <section className="principal">
           <Header></Header>
       </section>
     );
