@@ -6,6 +6,7 @@ export const Header = () => {
       <nav>
       <h1 className="namePrincipal">João Victor, seu desenvolvedor Web!</h1>
       </nav>
+      <h1>Olá</h1>
       <nav>
       <a className="linksOfSocialMidia" href="https://github.com/Joaovcitor">
         GitHub
