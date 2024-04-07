@@ -2,15 +2,26 @@ import "./style.css";
 
 export const Header = () => {
   return (
-    <header className="container">
-      <nav>
-        <h1 className="namePrincipal">JV_byte Enterprise</h1>
+    <section className="container">
+      <nav className="links">
+        <h1 className="namePrincipal">JV_byte</h1>
+        <a href="" className="redeSocial">
+          E-mail
+        </a>
+        <a href="" className="redeSocial">
+          WhatsApp
+        </a>
+        <a href="" className="redeSocial">
+          YouTube
+        </a>
+      </nav>
+      <nav className="content">
         <p className="description">
-          Uma empresa focada em soluções digitais, com criação de sistemas e
-          mercados digitais. Temos uma vasta experiência em desenvolvimento de
-          softwares
+          Somos uma empresa especializada em mercados digitais, com experiências
+          em vários setores do mercado, desde pequenas páginas de captura, até
+          sistemas inteiros de marktplace.
         </p>
       </nav>
-    </header>
+    </section>
   );
 };
